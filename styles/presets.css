@@ -1,0 +1,22 @@
+/* Text Presets */
+
+.text-preset-1 {
+  font-family: "ChivoVariable", "Arial", sans-serif;
+  font-size: 3rem;
+  font-weight: 300;
+  line-height: 120%;
+}
+
+.text-preset-2 {
+  font-family: "ChivoVariable", "Arial", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.text-preset-3 {
+  font-family: "ChivoVariable", "Arial", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 200%;
+}
