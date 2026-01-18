@@ -1,40 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="styles/style.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Frontend Mentor | Pod request access landing page</title>
   </head>
   <body>
-    <!-- Featuring the text content (Header, Description) -->
     <div class="hero-container">
       <header>
         <img src="/assets/desktop/logo.svg" alt="" />
       </header>
 
       <main>
-        <div class="hero-container_content">
+        <!-- Featuring the text content. The hero title and description. -->
+        <section class="hero-container_content">
           <h1 class="hero-header">Publish your podcasts everywhere.</h1>
           <p class="hero-text">
             Upload your audio to Pod with a single click. We’ll then distribute
             your podcast to Spotify, Apple Podcasts, Google Podcasts, Pocket
             Casts and more!
           </p>
-        </div>
+        </section>
 
         <!-- Featuring the input and button to register an email address -->
         <div class="register-container">
-          <input type="email" name="" id="" />
-          <button>Request Access</button>
+          <input class="register-input" type="email" name="" id="" />
+          <button class="register-btn">Request Access</button>
         </div>
 
         <!-- Various podcast sponsors. Displayed in a row. -->
-        <div class="sponsor-icons">
+        <footer class="sponsor-icons">
           <img src="/assets/desktop/spotify.svg" alt="" />
           <img src="/assets/desktop/apple-podcast.svg" alt="" />
           <img src="/assets/desktop/google-podcasts.svg" alt="" />
           <img src="/assets/desktop/pocket-casts.svg" alt="" />
-        </div>
+        </footer>
       </main>
     </div>
   </body>
