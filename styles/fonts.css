@@ -1,0 +1,12 @@
+/* Project Font Faces */
+
+@font-face {
+  font-family: "ChivoItalic";
+  src: url("/assets/fonts/Chivo-Italic-VariableFont_wght.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "ChivoVariable";
+  src: url("/assets/fonts/Chivo-VariableFont_wght.ttf") format("truetype");
+}
