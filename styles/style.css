@@ -1,0 +1,26 @@
+/* Primary design file for Project */
+
+:root {
+  /* Project colors provided in Figma design file */
+  --green: #54E6Af;
+  --blue-950: #121725;
+  --blue-900: #2C344B;
+  --blue-600: #5A668A;
+  --blue-300: #C2CBE5;
+  --white: #FFFFFF;
+  --red: #FB3E3E;
+
+
+  /* Spacings provided from Figma design file */
+  --spacing-1300: 104px;
+  --spacing-1100: 88px;
+  --spacing-1000: 80px;
+  --spacing-800: 64px;
+  --spacing-700: 56px;
+  --spacing-500: 40px;
+  --spacing-400: 32px;
+  --spacing-300: 24px;
+  --spacing-200: 16px;
+  --spacing-100: 8px;
+  --spacing-50: 4px;
+}
