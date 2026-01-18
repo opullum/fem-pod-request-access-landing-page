@@ -1,15 +1,16 @@
 /* Primary design file for Project */
 
+@import url("/styles/presets.css");
+
 :root {
   /* Project colors provided in Figma design file */
-  --green: #54E6Af;
+  --green: #54e6af;
   --blue-950: #121725;
-  --blue-900: #2C344B;
-  --blue-600: #5A668A;
-  --blue-300: #C2CBE5;
-  --white: #FFFFFF;
-  --red: #FB3E3E;
-
+  --blue-900: #2c344b;
+  --blue-600: #5a668a;
+  --blue-300: #c2cbe5;
+  --white: #ffffff;
+  --red: #fb3e3e;
 
   /* Spacings provided from Figma design file */
   --spacing-1300: 104px;
@@ -23,4 +24,9 @@
   --spacing-200: 16px;
   --spacing-100: 8px;
   --spacing-50: 4px;
+}
+
+/* Utility Classes */
+.text-highlight {
+  color: var(--green);
 }
