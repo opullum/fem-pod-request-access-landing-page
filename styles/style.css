@@ -51,9 +51,10 @@ body {
 }
 
 .host-container__img {
-  object-fit: fill;
+  object-fit: cover;
   width: 100%;
   height: 100%;
+
   opacity: 0.1;
 }
 
