@@ -28,15 +28,36 @@
 }
 
 body {
+  padding: calc(var(--spacing-400) + 4px);
   background-color: var(--blue-950);
+}
+
+.contents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-700);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-500);
 }
 
 .hero__title {
   color: var(--white);
+  text-align: center;
 }
 
 .hero__details {
   color: var(--blue-300);
+  text-align: center;
+}
+
+.register {
+  order: 1;
 }
 
 /* Utility Classes */
