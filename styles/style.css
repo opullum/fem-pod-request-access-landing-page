@@ -52,6 +52,7 @@ main {
   gap: var(--spacing-500);
 
   width: 100%;
+  max-width: 303px;
 }
 
 .hero {
@@ -89,15 +90,31 @@ main {
 }
 
 .register {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-100);
+
+  width: 100%;
   order: 1;
 }
 
 .register__input {
+  background-color: var(--blue-900);
+  color: var(--white);
+
+  border: none;
+  border-radius: 24px;
+
   width: 100%;
+
+  padding: var(--spacing-100) var(--spacing-200);
 }
 
 .register__btn {
+  background-color: var(--green);
   width: 100%;
+  padding: var(--spacing-100) var(--spacing-200);
+  border-radius: 24px;
 }
 
 /* Utility Classes */
