@@ -38,6 +38,19 @@ body {
   background-color: var(--blue-950);
 }
 
+.host-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  height: 100vh;
+  width: 100vw;
+}
+
+.host-container__img {
+  opacity: 0.1;
+}
+
 .contents {
   display: flex;
   flex-direction: column;
