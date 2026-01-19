@@ -2,6 +2,7 @@
 
 @import url("/styles/presets.css");
 @import url("/styles/fonts.css");
+
 :root {
   /* Project colors provided in Figma design file */
   --green: #54e6af;
@@ -24,6 +25,18 @@
   --spacing-200: 16px;
   --spacing-100: 8px;
   --spacing-50: 4px;
+}
+
+body {
+  background-color: var(--blue-950);
+}
+
+.hero__title {
+  color: var(--white);
+}
+
+.hero__details {
+  color: var(--blue-300);
 }
 
 /* Utility Classes */
