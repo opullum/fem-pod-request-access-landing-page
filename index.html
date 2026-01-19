@@ -7,7 +7,9 @@
     <title>Frontend Mentor | Pod request access landing page</title>
   </head>
   <body>
-    <div class="hero-container">
+    <!-- Contains the elements on the page. Used to group these items and allow -->
+    <!-- for easier clipping over the page image. -->
+    <div class="contents">
       <header>
         <img
           src="/assets/desktop/logo.svg"
@@ -18,11 +20,12 @@
 
       <main>
         <!-- Featuring the text content. The hero title and description. -->
-        <section class="hero-container_content">
-          <h1 class="hero-header">
-            <span class="text-highlight">Publish your podcasts</span>everywhere.
+        <section class="hero">
+          <h1 class="hero__title text-preset-1">
+            <span class="text-highlight">Publish your podcasts</span>
+            everywhere.
           </h1>
-          <p class="hero-text">
+          <p class="hero__details text-preset-2">
             Upload your audio to Pod with a single click. We’ll then distribute
             your podcast to Spotify, Apple Podcasts, Google Podcasts, Pocket
             Casts and more!
@@ -30,13 +33,18 @@
         </section>
 
         <!-- Featuring the input and button to register an email address -->
-        <div class="register-container">
-          <input class="register-input" type="email" name="" id="" />
-          <button class="register-btn">Request Access</button>
+        <div class="register">
+          <input
+            class="register__input text-preset-3"
+            type="email"
+            name=""
+            id=""
+          />
+          <button class="register__btn text-preset-3">Request Access</button>
         </div>
 
         <!-- Various podcast sponsors. Displayed in a row. -->
-        <footer class="sponsor-icons">
+        <footer class="sponsors">
           <img
             src="/assets/desktop/spotify.svg"
             alt="Company logo for sponsor Spotify"
