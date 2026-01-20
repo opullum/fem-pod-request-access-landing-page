@@ -20,3 +20,12 @@
   font-weight: 700;
   line-height: 200%;
 }
+
+@media (min-width: 768px) {
+  .text-preset-1 {
+    font-size: 3rem;
+  }
+  .text-preset-2 {
+    font-size: 1.175rem;
+  }
+}
