@@ -161,12 +161,18 @@ main {
 
   body {
     justify-content: start;
+    padding: calc(var(--spacing-500) + 4px);
   }
 
   .contents {
     align-items: start;
-    background-color: var(--blue-950);
     z-index: 1;
+    width: 592px;
+  }
+
+  main {
+    background-color: var(--blue-950);
+    width: 100%;
   }
 
   .hero__title,
