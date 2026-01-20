@@ -160,8 +160,14 @@ main {
   }
 
   .contents {
+    align-items: start;
     background-color: var(--blue-950);
     z-index: 1;
+  }
+
+  .hero__title,
+  .hero__details {
+    text-align: left;
   }
 
   .register {
