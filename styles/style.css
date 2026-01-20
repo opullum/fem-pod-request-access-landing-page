@@ -43,7 +43,7 @@ body {
 
 .host-container {
   position: absolute;
-  bottom: 0;
+  top: 0;
   left: 0;
 
   height: 100%;
@@ -142,4 +142,29 @@ main {
 /* Utility Classes */
 .text-highlight {
   color: var(--green);
+}
+
+@media (min-width: 768px) {
+  .host-container {
+    left: auto; /* Default value for Absolute positioning */
+    right: 0;
+    top: 0;
+
+    width: 460px;
+    height: 868px;
+  }
+
+  .host-container__img {
+    z-index: 0;
+    opacity: 1;
+  }
+
+  .contents {
+    background-color: var(--blue-950);
+    z-index: 1;
+  }
+
+  .register {
+    order: 0;
+  }
 }
