@@ -172,6 +172,7 @@ main {
 
   main {
     background-color: var(--blue-950);
+    max-width: 592px;
     width: 100%;
   }
 
